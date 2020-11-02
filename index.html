@@ -2,14 +2,17 @@
 <html lang="en-US">
 <head><title>Caesar's Cipher</title>
 <link href = "ccstylesheet.css" type="text/css" rel = "stylesheet"> 
-<script src="caesars-cipher.js"></script>
+
 </head>
+<body>
 <div><h1>Make a code! Break a code!</h1>
     <p>Enter a word or phrase to make a code. If you have a code made with an ROT13 cipher, break it here. The result will appear below.</p>
     <input type="text" id="str">
-      <button type="submit" id = "submitBtn" onclick="rot13()">Submit</button>
-      <button type="submit" onclick="clear()">Clear</button> <p>Clear button doesn't work yet.</p>
+      <button type="submit" id="submitBtn" onclick="rot13()">Submit</button>
+      <button type="submit" onclick="reset()" id="clear">Clear</button> 
       </div>
     <div id="decipher"></div>
+    <script src="caesars-cipher.js"></script>
+  </body>
     </html>
     

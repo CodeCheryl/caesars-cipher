@@ -37,13 +37,21 @@
     background-color: transparent;
     padding: 0;
   }
+
+  #submitBtn {
+    background-color: #008060;
+    color: #fff
+  }
+  
+  #clear {
+    background-color: #e9a7ff;
+}
+
   
   @media (max-width: 700px) {
     div {
       width: 50vw;
     }
-    button {
-      background-color: #fff;
-    }
+    
   }
   
