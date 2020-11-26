@@ -8,7 +8,7 @@
 <body>
 <div><h1>Make a code! Break a code!</h1>
     <p>Enter a word or phrase to make a code. If you have a code made with an ROT13 cipher, break it here. The result will appear below.</p>
-    <input type="text" id="str">
+    <input type="text" id="str" onfocus="this.value=''">
       <button type="submit" id="submitBtn" onclick="rot13()">Submit</button>
       <button type="submit" onclick="reset()" id="clear">Clear</button> 
       </div>
